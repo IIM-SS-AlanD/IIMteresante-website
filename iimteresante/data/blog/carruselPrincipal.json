@@ -1,0 +1,42 @@
+[
+    {
+        "imagePath": "/assets/images/Blog-banner.png",
+        "url": "/pages/blog.html",
+        "text": "Blog",
+        "textPosition": "top-right"
+
+    },
+    {
+        "imagePath": "/assets/images/galeria.png",
+        "url": "/pages/galeria.html",
+        "text": "Galeria",
+        "textPosition": "top-right"
+    },
+    {
+        "imagePath": "/assets/images/Podcast.png",
+        "url": "/pages/Podcasts.html",
+        "text": "Podcasts",
+        "textPosition": "top-right"
+    }
+    ,
+    {
+        "imagePath": "/assets/images/Infografías.png",
+        "url": "/pages/infografias.html",
+        "text": "Infografias",
+        "textPosition": "top-right"
+
+    },
+    {
+        "imagePath": "/assets/images/Ciencia en corto.png",
+        "url": "/pages/pitch-cientifico.html",
+        "text": "Ciencia en corto",
+        "textPosition": "top-right"
+    },
+    {
+        "imagePath": "/assets/images/contacto.png",
+        "url": "/pages/contacto.html",
+        "text": "Contacto",
+        "textPosition": "top-right"
+
+    }
+]

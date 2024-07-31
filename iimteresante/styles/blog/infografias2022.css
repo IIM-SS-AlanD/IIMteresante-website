@@ -1,0 +1,295 @@
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0;
+}
+
+* {
+    box-sizing: content-box;
+}
+
+.row>.column {
+    padding: 10px 8px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+.iimfografias-size {
+    width: 100%;
+
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 20px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 60%;
+    max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.mySlides {
+    display: none;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    margin-left: -150px;
+    margin-right: -150px;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    transition: 0.6s ease;
+    border-radius: 20px 20px 20px 20px;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 20px 20px 20px 20px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(255, 255, 255, 0.308);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+img {
+    margin-bottom: -4px;
+}
+
+.caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+}
+
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+img.hover-shadow {
+    transition: 0.3s;
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+
+/* CARDS */
+
+.card {
+    position: relative;
+    width: 420px;
+    height: 400px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 1000px;
+    box-shadow: 0 0 0 5px #ffffff80;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+
+.card__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #1059ad81;
+    transform: rotateX(-90deg);
+    transform-origin: bottom;
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card:hover .card__content {
+    transform: rotateX(0deg);
+}
+
+.card__title {
+    margin: 0;
+    font-size: 24px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "__Futura Md BT_5";
+}
+
+.card:hover svg {
+    scale: 0;
+}
+
+.card__description {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #777;
+    line-height: 1.4;
+}
+
+
+
+@media screen and (max-width: 1050px) {
+    .modal-content {
+        width: 95%;
+        max-width:max-content;
+    }
+
+    .modal {
+        
+        padding-top: 7%;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    .column {
+        float: left;
+        width: 100%;
+    }
+    #banner_infografia{
+        
+        padding: 0px; /* Espaciado interno */
+        margin: 0px; /* Márgenes entre secciones */
+        width: 80%;
+    }
+
+    .prev,
+.next {
+    padding: 16px;
+    margin-top: 60%;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-size: 70px;
+}
+
+.modal-content {
+    width: 90%;
+}
+}
+@media screen and (max-width: 750px) {
+    .modal {
+        padding-top: 50%;
+    }
+    #banner_infografia{
+        border-radius: 40px;
+    }
+    .prev,
+.next {
+    padding: 16px;
+    margin-top: 4em;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 60px;
+    border-radius: 20px 20px 20px 20px;
+}
+.modal-content {
+    width: 100%;
+}
+.row>.column {
+    padding: 10px 0px;
+}
+}

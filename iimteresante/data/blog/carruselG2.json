@@ -1,0 +1,43 @@
+[
+    {
+        "imagePath": "/assets/images/Galeria/Biblioteca/_DSC5717.jpg",
+        "url": "/pages/Noticias.html",
+        "text": "Noticias",
+        "textPosition": "top-right"
+
+    },
+    {
+        "imagePath": "/assets/images/Galeria/Biblioteca/_DSC5718.jpg",
+        "url": "/pages/galeria.html",
+        "text": "Galeria",
+        "textPosition": "top-right"
+    },
+    {
+        "imagePath": "/assets/images/Galeria/Biblioteca/_DSC5720.jpg",
+        "url": "/pages/Recursos.html",
+        "text": "Recursos",
+        "textPosition": "top-right"
+    }
+    ,
+    {
+        "imagePath": "/assets/images/Galeria/Biblioteca/_DSC5721.jpg",
+        "url": "/pages/art_interes.html",
+        "text": "Articulos de interes",
+        "textPosition": "top-right"
+
+    },
+    {
+        "imagePath": "/assets/images/Galeria/Biblioteca/_DSC5722.jpg",
+        "url": "/pages/contacto.html",
+        "text": "Contacto",
+        "textPosition": "top-right"
+
+    },
+    {
+        "imagePath": "/assets/images/Galeria/Biblioteca/_DSC5723.jpg",
+        "url": "/pages/contacto.html",
+        "text": "Contacto",
+        "textPosition": "top-right"
+
+    }
+]

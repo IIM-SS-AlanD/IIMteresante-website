@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="es-ES"><!--en-->
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="\assets\images\IIMTERESANTE_COMBINACIÓN(1).png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="shortcut icon" href="assets/images/IIMTERESANTE_LOGO_sin letras.png" />
+    <title>IIMteresante</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/blog/customFonts.css">
+    <link rel="stylesheet" href="styles/blog/style.css">
+    <link rel="stylesheet" href="styles/blog/style2.css">
+    <link rel="stylesheet" href="styles/blog/footer.css">
+    <link rel="stylesheet" href="styles/blog/styleCarrusel.css">
+    <link rel="stylesheet" href="styles/blog/cardStyle.css">
+    <link rel="stylesheet" href="styles/blog/carruselT2.css">
+    <link rel="stylesheet" href="styles/blog/cardStyleT2.css">
+  </head>
+  <body class="index">
+    <header class="header">
+      <!-- Menu generado dinamicamente por menus.js-->
+    </header>
+    <main class="main"> <!-- Cuerpo de la página -->
+      <section class="section" > <!-- Sección 1 -->
+          <div class="carousel-container">
+              <div class="carousel" data-json-path="/data/blog/carruselPrincipal.json">
+              </div>
+              <button class="prev-button">&#8249;</button>
+              <button class="next-button">&#8250;</button>
+              <div class="carousel-dots"></div>
+          </div>
+      </section>
+      <div id="news-section" class="news-section">
+        <h2 class="titulo-infografia" style="color: black;">Próximos Eventos</h2>
+        <div id="news-container" class="news-container">
+            <!-- Aquí se cargarán las imágenes de eventos -->
+        </div>
+    </div>
+      <section class="section-mision">
+          <div id="randomImageContainer">
+            <img id="randomImage" src="" alt="Frase de cientifico">
+          </div>
+        <div id="mision-text">
+          <section class="subsection"> <!--Agregar la imagen de frase de cientifico-->
+            <div>
+              <p class="mision">
+                Creemos que fomentar el acceso al conocimiento es crucial para el desarrollo de una cultura científica en la sociedad, así como para motivar a estudiantes de las nuevas generaciones en distintos niveles de escolaridad a emprender una carrera científica que acelere el desarrollo tecnológico y social. 
+                Nuestra manera de lograrlo es a través de la divulgación científica, y por ello nos planteamos como objetivo promover y comunicar la Ciencia desarrollada en el Instituto de Investigaciones en Materiales (IIM) de la UNAM.
+              </p>
+            </div>
+            <br><br>
+            <div>
+              <p class="mision">
+                Hoy en día la ciencia está en todas partes, jugando un papel crucial en el desarrollo de las nuevas tecnologías. Sin embargo, a pesar de la importancia del conocimiento científico y las distintas aplicaciones que tiene en la actualidad, la mayor parte de la población no está enterada de las investigaciones científicas ni de sus repercusiones.
+              </p>
+          </div>
+          </section>
+        </div>
+      </section>
+      <section class="section" id="videoindex">
+        <iframe class="vid" width="920" height="480"  src="https://www.youtube.com/embed/videoseries?si=2iAOjl6rgUIkJni7&amp;list=PL8ZcrsrBeHKZPKUQBXpBJWu-EJ2wIYJjj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <br><br>
+            <div id="span">
+                <a id="enlace" href="/pages/pitch-cientifico.html">
+                    <button-86 class="button-86" role="button"><span class="boton-texto">CIENCIA EN CORTO</span></button-86>
+                </a>
+            </div>
+      </section>
+      <section class="section" id="infografia-back">
+        <div id="info-div">
+          <div id="infografia-image">
+            <img src="../assets/images/2024/Amoniaco_Infografía.png" style="width: 100%;" onclick="openModal();currentSlide(4)" class="hover-shadow cursor" alt="Inforgrafia sobre el amoniaco">
+          </div>
+          <div id="infografia-text" >
+            <h2 class="titulo-infografia">DESCUBRE EL PODER DE LA INFORMACIÓN VISUAL</h2>
+            <p class="texto-infografia">Sumérgete en el fascinante mundo de la ciencia a través de nuestras infografías interactivas. Descubre datos intrigantes, 
+              visualiza conceptos complejos y desbloquea el poder del conocimiento científico de manera accesible y atractiva.
+              <br> <br>
+              Desde artículos informativos hasta investigaciones de vanguardia, encuentra todo lo que necesitas para satisfacer tu curiosidad científica y mantener tu mente intrigada.</p>
+            <br><br>
+            <div id="span" >
+                <a id="enlace" href="/pages/infografias.html">
+                    <button-86 id="boton-info" class="button-86" role="button"><span class="boton-texto">INFOGRAFÍAS</span></button-86>
+                </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="section-spotify">
+        <iframe id="spotify-size" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5KrIvq4182JK2tZoIAvte0?utm_source=generator&theme=0" 
+        width="100%" height="152" frameBorder="0" allowfullscreen="" 
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </section>
+      <section id="efemeride">
+        
+        <img id="imagenDelDia" src="" alt="Imagen del día">
+      </section>
+      <section class="section-frase" >
+        <section class="subsection-frase">
+          <div class="centrado"> 
+            <p id="frase-titulo">
+              <b>“No se puede enseñar nada a un hombre sólo se le puede ayudar a descubrirse a sí mismo”</b>
+            </p>
+            <p class="frase-texto">
+              <b>GALILEO GALILEI</b>
+            </p>
+          </div>
+        </section>
+        <section class="subsection-frase">
+          <div>
+            <p class="frase-texto">
+              <b>Galileo Galilei (1564 - 1642) era un astrónomo, matemático, físico y filósofo italiano. La cita de Galileo refleja la necesidad de que las generaciones venideras aprendan por sí mismas, de manera que puedes advertirles de algo, pero deberán descubrirlo por sí solas.</b>
+            </p>
+          </div>
+        </section>
+      </section>    
+  </main>
+    <footer class="contacto">
+      <!-- Generacion dinamica de apartado de contacto -->
+    </footer>
+    <script src="scripts/blog/carrusel.js"></script>
+    <script src="scripts/blog/carruselT2.js"></script>
+    <script src="scripts/blog/menus.js"></script>
+    <script src="scripts/blog/contacto.js"></script>
+    <script src="scripts/blog/efemerides.js"></script>
+    <script src="scripts/blog/frases.js"></script>
+    <script src="scripts/blog/eventos.js"></script>
+    
+  </body>
+</html>

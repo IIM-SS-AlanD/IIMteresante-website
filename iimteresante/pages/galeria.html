@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es-ES"><!--en-->
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="..\assets\images\IIMTERESANTE_COMBINACIÓN(1).png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../assets/images/IIMTERESANTE_LOGO_sin letras.png" />
+    <title>IIMteresante Secciones</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="../styles/blog/customfonts.css">
+    <link rel="stylesheet" href="../styles/blog/secciones.css">
+    <link rel="stylesheet" href="../styles/blog/galeria.css">
+    <link rel="stylesheet" href="../styles/blog/galleryCarruselStyle.css">
+    <link rel="stylesheet" href="../styles/blog/style.css">
+    <link rel="stylesheet" href="../styles/blog/style2.css">
+    <link rel="stylesheet" href="../styles/blog/footer.css">
+
+</head>
+<body class="GAL">
+    <header class="header">
+        <!-- Menu generado dinamicamente por menus.js-->
+    </header>
+    <main class="main"> <!-- Cuerpo de la página -->
+        <section class="section-all" > <!-- Sección 1 -->
+            <a class="bannergal" href="../pages/galeria.html"> 
+                <img class="banner" id="gal1" src="/assets/images/galeria.png" alt="banner de seccion">
+            </a> 
+            <section class="subsection" id="background-color-gal"> <!--Agregar la imagen de frase de cientifico-->
+                <div>
+                    <p class="mision">
+                        ¡Conoce las instalaciones del Instituto de Investigaciones en Materiales!
+                    </p>
+                </div>
+            </section>
+        </section>
+        
+        <!-- Botones para cambiar el data-json-path -->
+        <div class="contenedorScroll">
+            <div class="botonesGal">
+                <button class="Btn1" data-path="/data/blog/carruselGaleria.json">Auditorio</button>
+                <button class="Btn2" data-path="/data/blog/carruselG2.json">Biblioteca</button>
+                <button class="Btn3" data-path="/data/blog/carruselG3.json">Lab Analisis Quimico Elemental</button>
+                <button class="Btn4" data-path="/data/blog/carruselG4.json">Lab Analisis Térmico</button>
+                <button class="Btn5" data-path="/data/blog/carruselG5.json">Lab Difraccion de Rayos X</button>
+                <button class="Btn6" data-path="/data/blog/carruselG6.json">Lab Espectroscopia</button>
+                
+                <button class="Btn8" data-path="/data/blog/carruselG8.json">Lab Fuerza Atomica</button>
+                <button class="Btn9" data-path="/data/blog/carruselG9.json">Lab Metalurgia</button>
+                <button class="Btn10" data-path="/data/blog/carruselG10.json">Lab Microscopía Electrónica de Transmisión</button>
+                <button class="Btn11" data-path="/data/blog/carruselG11.json">Lab Pruebas Mecanicas</button>
+                
+                <button class="Btn13" data-path="/data/blog/carruselG13.json">LUME</button>
+                <button class="Btn14" data-path="/data/blog/carruselG14.json">Licuefactor</button>
+                <button class="Btn12" data-path="/data/blog/carruselG12.json">Lab Reologia y Caracterizacion Fisicoquimica del Petroleo</button>
+                <button class="Btn7" data-path="/data/blog/carruselG7.json">Lab Espectroscopia de Fotoelectrones emitidos por Rayos X</button>
+            </div>
+        </div>
+
+        <div class="carousel-container">
+            <div class="carousel" data-json-path="/data/blog/carruselG2.json"></div>  
+            </div>
+            <button class="prev-button">&#8249;</button>
+            <button class="next-button">&#8250;</button>
+            <div class="carousel-dots"></div>
+        </div>
+    </main>
+    <footer class="contacto">
+        <!-- Generacion dinamica de apartado de contacto -->
+    </footer>
+    <script src="../scripts/blog/carruselGal.js"></script>
+    <script src="../scripts/blog/carruselT2GAL.js"></script>
+    <script src="../scripts/blog/menus.js"></script>
+    <script src="../scripts/blog/contacto.js"></script>
+    <script src="../scripts/blog/galeria.js"></script>
+
+</body>
+</html>

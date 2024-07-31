@@ -1,0 +1,155 @@
+.paginared{
+    width: 800px;
+    height: 800px;
+    margin: 30px;
+}
+
+.paginadiv{
+    display: flex;
+    
+}
+
+.parrafo{
+    font-family: '__Futura Hv BT_5';
+    font-size: 25px;
+    align-items: center;
+    text-align: left;
+    justify-content: left;
+}
+
+#promo{
+    width: 40%;
+    display: flex;
+    text-align: justify;
+    padding-right: 5%;
+    padding-left: 3%;
+    margin-left: 4%;
+}
+
+#promo2{
+    width: 40%;
+    display: inline;
+    text-align: left;
+    padding-right: 5%;
+    padding-left: 3%;
+    text-align: center;
+    display: flex;
+    font-size: 1.7vw;
+}
+
+.banner2{
+    flex: 0 0 auto;
+    max-width: 80%;
+    object-fit: contain;
+    height: fit-content;
+    border-radius: 40px;
+    display: inline;
+    padding-left: 10px;
+}
+
+.final_banner{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 40px 0px 0px 200px;
+    margin-bottom: 20px;
+}
+
+#banner_Podcasts{
+    display: inline;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #e5e5e5; /* Color de fondo para las secciones */
+    padding: 20px; /* Espaciado interno */
+    margin: 10px 30px 10px 100px; /* Márgenes entre secciones */
+    border-bottom: 1px solid #ccc; /* Borde para las secciones */
+    border-top: 1px solid #ccc; /* Borde para las secciones */
+}
+
+#Podcast_SeccionBanner{
+    flex-wrap: nowrap;
+    display: flex;
+}
+
+.logosred {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: space-between; 
+    margin: 40px;
+
+}
+
+.logosred a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: calc(90% / 3); /* Esto controla cuántas imágenes se muestran en una fila */
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+.logosred img {
+    max-width: 70%;
+    max-height: 100%;
+    border-radius: 20px;
+    
+}
+
+
+@media screen and (max-width: 1500px) {
+    .logosred img {
+        max-width: 90%;        
+    }
+}
+@media screen and (max-width: 850px) {
+    #Podcast_SeccionBanner{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+
+    #promo{
+        width: 100%;
+        
+    }
+
+    .logosred a {
+        width: calc(90% / 3); /* Esto controla cuántas imágenes se muestran en una fila */
+        margin: 2px;
+    }
+
+    .logosred {
+        margin: 20px;
+    
+    }
+
+    .logosred img {
+        max-width: 100%;        
+    }
+    .parrafo{
+        
+        font-size: 22px;
+        
+    }
+    #banner_Podcasts{
+        margin: 0px 0px 10px;
+    }
+}
+@media screen and (max-width: 750px) {
+    .parrafo{
+        
+        font-size: 20px;
+        
+    }
+
+    .logosred a {
+        width: calc(86% / 2); /* Esto controla cuántas imágenes se muestran en una fila */
+        margin: 10px;
+    }
+    
+}
