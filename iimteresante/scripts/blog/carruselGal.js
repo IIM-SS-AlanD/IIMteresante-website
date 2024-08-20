@@ -111,60 +111,60 @@ document.addEventListener("DOMContentLoaded", function () {
     // Evento para el botón de cambio de dirección
     Btn1.addEventListener("click", function(){
         // Define el nuevo path
-        const newJsonPath = "/data/blog/carruselGaleria.json"; 
+        const newJsonPath = "/iimteresante/data/blog/carruselGaleria.json"; 
         // Carga el carrusel con los datos del nuevo archivo JSON
         loadCarousel(newJsonPath);
     });
     Btn2.addEventListener("click", function(){
-        const newJsonPath = "/data/blog/carruselG2.json"; 
+        const newJsonPath = "/iimteresante/data/blog/carruselG2.json"; 
         loadCarousel(newJsonPath);
     });
     Btn3.addEventListener("click", function(){
-        const newJsonPath = "/data/blog/carruselG3.json"; 
+        const newJsonPath = "/iimteresante/data/blog/carruselG3.json"; 
         loadCarousel(newJsonPath);
     });
     Btn4.addEventListener("click", function(){
-        const newJsonPath = "/data/blog/carruselG4.json"; 
+        const newJsonPath = "/iimteresante/data/blog/carruselG4.json"; 
         loadCarousel(newJsonPath);
     });
     Btn5.addEventListener("click", function(){
-        const newJsonPath = "/data/blog/carruselG5.json"; 
+        const newJsonPath = "/iimteresante/data/blog/carruselG5.json"; 
         loadCarousel(newJsonPath);
     });
     Btn6.addEventListener("click", function(){
-        const newJsonPath = "/data/blog/carruselG6.json"; 
+        const newJsonPath = "/iimteresante/data/blog/carruselG6.json"; 
         loadCarousel(newJsonPath);
     });
     Btn7.addEventListener("click", function(){
-        const newJsonPath = "/data/blog/carruselG7.json"; 
+        const newJsonPath = "/iimteresante/data/blog/carruselG7.json"; 
         loadCarousel(newJsonPath);
     });
     Btn8.addEventListener("click", function(){
-        const newJsonPath = "/data/blog/carruselG8.json"; 
+        const newJsonPath = "/iimteresante/data/blog/carruselG8.json"; 
         loadCarousel(newJsonPath);
     });
     Btn9.addEventListener("click", function(){
-        const newJsonPath = "/data/blog/carruselG9.json"; 
+        const newJsonPath = "/iimteresante/data/blog/carruselG9.json"; 
         loadCarousel(newJsonPath);
     });
     Btn10.addEventListener("click", function(){
-        const newJsonPath = "/data/blog/carruselG10.json"; 
+        const newJsonPath = "/iimteresante/data/blog/carruselG10.json"; 
         loadCarousel(newJsonPath);
     });
     Btn11.addEventListener("click", function(){
-        const newJsonPath = "/data/blog/carruselG11.json"; 
+        const newJsonPath = "/iimteresante/data/blog/carruselG11.json"; 
         loadCarousel(newJsonPath);
     });
     Btn12.addEventListener("click", function(){
-        const newJsonPath = "/data/blog/carruselG12.json"; 
+        const newJsonPath = "/iimteresante/data/blog/carruselG12.json"; 
         loadCarousel(newJsonPath);
     });
     Btn13.addEventListener("click", function(){
-        const newJsonPath = "/data/blog/carruselG13.json"; 
+        const newJsonPath = "/iimteresante/data/blog/carruselG13.json"; 
         loadCarousel(newJsonPath);
     });
     Btn14.addEventListener("click", function(){
-        const newJsonPath = "/data/blog/carruselG14.json"; 
+        const newJsonPath = "/iimteresante/data/blog/carruselG14.json"; 
         loadCarousel(newJsonPath);
     });
     

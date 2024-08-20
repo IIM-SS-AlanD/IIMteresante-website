@@ -1,40 +1,40 @@
 [
     {
-        "imagePath": "/assets/images/Blog-banner.png",
-        "url": "/pages/blog.html",
+        "imagePath": "/iimteresante/assets/images/Blog-banner.png",
+        "url": "/iimteresante/pages/blog.html",
         "text": "Blog",
         "textPosition": "top-right"
 
     },
     {
-        "imagePath": "/assets/images/galeria.png",
-        "url": "/pages/galeria.html",
+        "imagePath": "/iimteresante/assets/images/galeria.png",
+        "url": "/iimteresante/pages/galeria.html",
         "text": "Galeria",
         "textPosition": "top-right"
     },
     {
-        "imagePath": "/assets/images/Podcast.png",
-        "url": "/pages/Podcasts.html",
+        "imagePath": "/iimteresante/assets/images/Podcast.png",
+        "url": "/iimteresante/pages/Podcasts.html",
         "text": "Podcasts",
         "textPosition": "top-right"
     }
     ,
     {
-        "imagePath": "/assets/images/Infografías.png",
-        "url": "/pages/infografias.html",
+        "imagePath": "/iimteresante/assets/images/Infografías.png",
+        "url": "/iimteresante/pages/infografias.html",
         "text": "Infografias",
         "textPosition": "top-right"
 
     },
     {
-        "imagePath": "/assets/images/Ciencia en corto.png",
-        "url": "/pages/pitch-cientifico.html",
+        "imagePath": "/iimteresante/assets/images/Ciencia en corto.png",
+        "url": "/iimteresante/pages/pitch-cientifico.html",
         "text": "Ciencia en corto",
         "textPosition": "top-right"
     },
     {
-        "imagePath": "/assets/images/contacto.png",
-        "url": "/pages/contacto.html",
+        "imagePath": "/iimteresante/assets/images/contacto.png",
+        "url": "/iimteresante/pages/contacto.html",
         "text": "Contacto",
         "textPosition": "top-right"
 

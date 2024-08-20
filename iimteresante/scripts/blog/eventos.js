@@ -10,7 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
             if (images.length > 0) {
                 images.forEach(image => {
                     const imgElement = document.createElement('img');
-                    imgElement.src = `../../assets/eventos/${image}`;
+                    // Observar este link con cuidado ----------------------------------------------------------------------------------------------------------------------------------
+                    imgElement.src = `/iimteresante/assets/eventos/${image}`;
                     // imgElement.src = `../eventosproximos/${image}`;
                     imgElement.alt = 'Próximo evento';
                     newsContainer.appendChild(imgElement);

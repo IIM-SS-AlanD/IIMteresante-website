@@ -8,33 +8,33 @@ const contactoGenerator = `
                 <div class="fila">
                     <div class="circulo">
                         <a href="https://www.facebook.com/iimunam/?ref=br_rs" target="_blank">
-                            <img src="../assets/images/facebook-02.svg">
+                            <img src="/iimteresante/assets/images/facebook-02.svg">
                         </a>
                     </div>
                     <div class="circulo">
                         <a href="https://www.tiktok.com/@vinculacioniim?is_from_webapp=1&sender_device=pc" target="_blank">
-                            <img src="../assets/images/logo-tiktok-svgrepo-com.svg">
+                            <img src="/iimteresante/assets/images/logo-tiktok-svgrepo-com.svg">
                         </a>
                     </div>
                     <div class="circulo">
                         <a href="https://www.youtube.com/@vinculacioniim" target="_blank">
-                            <img src="../assets/images/youtube-02.svg">
+                            <img src="/iimteresante/assets/images/youtube-02.svg">
                         </a>
                     </div>
                     <div class="circulo">
                         <a href="https://www.linkedin.com/company/instituto-de-investigaciones-en-materiales/"
                             target="_blank">
-                            <img src="../assets/images/linkedin-02.svg">
+                            <img src="/iimteresante/assets/images/linkedin-02.svg">
                         </a>
                     </div>
                     <div class="circulo">
                         <a href="https://www.instagram.com/vinculacioniim"
                             target="_blank">
-                            <img src="../assets/images/instagram_black_logo_icon_147122.svg">
+                            <img src="/iimteresante/assets/images/instagram_black_logo_icon_147122.svg">
                         </a>
                     </div>
                 </div>
-                <img src="/assets/images/Logo Instituto-01.png" alt="Contacto" />
+                <img src="/iimteresante/assets/images/Logo Instituto-01.png" alt="Contacto" />
                 <!--
                 <div class="fila">
                     <input type="text" placeholder="Nombre">

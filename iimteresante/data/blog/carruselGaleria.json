@@ -1,7 +1,7 @@
 [
     {
-        "imagePath": "/assets/images/Galeria/Auditorio/Auditorio.JPG",
-        "url": "/pages/Noticias.html",
+        "imagePath": "/iimteresante//assets/images/Galeria/Auditorio/Auditorio.JPG",
+        "url": "/iimteresante//pages/Noticias.html",
         "text": "Noticias",
         "textPosition": "top-right"
 

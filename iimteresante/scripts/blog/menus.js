@@ -7,33 +7,33 @@ const menuHeaderGenerator = `
             <a href="https://www.unam.mx/"><img src="/assets/images/unam_logo_blanco-02.svg" alt="Logo UNAM"></a>
         </div>
         <div class="menu-item">
-            <a  id="index" href="/index.html">INICIO</a>
+            <a  id="index" href="/iimteresante/index.html">INICIO</a>
         </div>
         <div class="menu-item">
             <li  class="boton_desplegador">
-                <a href="/pages/seccion.html" class="arrow" id="seccion">SECCIONES ▼</a>
+                <a href="/iimteresante/pages/seccion.html" class="arrow" id="seccion">SECCIONES ▼</a>
                 <ul class="submenu">
-                    <a id="Pitch" class="submenulink" href="/pages/pitch-cientifico.html">CIENCIA EN CORTO</a>
-                    <a id="Podcast" class="submenulink" href="/pages/Podcasts.html">PODCAST</a>
-                    <a id="Infografia" class="submenulink" href="/pages/infografias.html">IIMFOGRAFÍAS</a>
-                    <a id="Hablemosde" class="submenulink" href="/pages/hablemosde.html">HABLEMOS DE</a>
+                    <a id="Pitch" class="submenulink" href="/iimteresante/pages/pitch-cientifico.html">CIENCIA EN CORTO</a>
+                    <a id="Podcast" class="submenulink" href="/iimteresante/pages/Podcasts.html">PODCAST</a>
+                    <a id="Infografia" class="submenulink" href="/iimteresante/pages/infografias.html">IIMFOGRAFÍAS</a>
+                    <a id="Hablemosde" class="submenulink" href="/iimteresante/pages/hablemosde.html">HABLEMOS DE</a>
                 </ul>   
             </li>
         </div>
         <div class="menu-item">
-            <a id="BLOG" href="/pages/blog.html">BLOG</a>
+            <a id="BLOG" href="/iimteresante/pages/blog.html">BLOG</a>
         </div>
         <div class="menu-item">
-            <a id="Red" href="/pages/red-cientifica.html">RED CIENTÍFICA</a>
+            <a id="Red" href="/iimteresante/pages/red-cientifica.html">RED CIENTÍFICA</a>
         </div>
         
         
         <div class="menu-item">
-            <a id="GAL" href="/pages/galeria.html">GALERÍA</a>
+            <a id="GAL" href="/iimteresante/pages/galeria.html">GALERÍA</a>
         </div>
         
         <div class="menu-item">
-            <a id="contact" href="/pages/contacto.html">CONTACTO</a>
+            <a id="contact" href="/iimteresante/pages/contacto.html">CONTACTO</a>
         </div>
         <div class="menu-toggle-container">
             <button class="menu-toggle">☰</button>
@@ -47,37 +47,37 @@ const menuMobileGenerator = `
         <nav class="navigation-mobile">
             <button class="close-menu">✕</button>
             <div class="menu-item">
-                <a href="/index.html">INICIO</a>
+                <a href="/iimteresante/index.html">INICIO</a>
             </div>
             <div class="menu-item">
-                <a href="/pages/seccion.html">SECCIONES</a>
+                <a href="/iimteresante/pages/seccion.html">SECCIONES</a>
             </div>
             <ul>
             <div class="menu-item">
-                    <a id="Pitch" style="font-size:28px; margin:10px 0px"; class="submenulink" href="/pages/pitch-cientifico.html">&bull; CIENCIA EN CORTO</a>
+                    <a id="Pitch" style="font-size:28px; margin:10px 0px"; class="submenulink" href="/iimteresante/pages/pitch-cientifico.html">&bull; CIENCIA EN CORTO</a>
             </div>
             <div class="menu-item">
-                    <a id="Podcast" style="font-size:28px; margin:10px 0px"; class="submenulink" href="/pages/Podcasts.html">&bull; PODCAST</a>
+                    <a id="Podcast" style="font-size:28px; margin:10px 0px"; class="submenulink" href="/iimteresante/pages/Podcasts.html">&bull; PODCAST</a>
             </div>
             <div class="menu-item">
-                    <a id="Infografia" style="font-size:28px; margin:10px 0px"; class="submenulink" href="/pages/infografias.html">&bull; IIMFOGRAFÍAS</a>
+                    <a id="Infografia" style="font-size:28px; margin:10px 0px"; class="submenulink" href="/iimteresante/pages/infografias.html">&bull; IIMFOGRAFÍAS</a>
             </div>
             <div class="menu-item">
-                    <a id="Hablemosde" style="font-size:28px; margin:10px 0px"; class="submenulink" href="/pages/hablemosde.html">&bull; HABLEMOS DE</a>
+                    <a id="Hablemosde" style="font-size:28px; margin:10px 0px"; class="submenulink" href="/iimteresante/pages/hablemosde.html">&bull; HABLEMOS DE</a>
             </div>
             </ul>   
             <div class="menu-item">
-                <a href="/pages/blog.html">BLOG</a>
+                <a href="/iimteresante/pages/blog.html">BLOG</a>
             </div>
             <div class="menu-item">
-                <a href="/pages/red-cientifica.html">RED CIENTIFICA</a>
+                <a href="/iimteresante/pages/red-cientifica.html">RED CIENTIFICA</a>
             </div>
             <div class="menu-item">
-                <a href="/pages/contacto.html">CONTACTO</a>
+                <a href="/iimteresante/pages/contacto.html">CONTACTO</a>
             </div>
             
             <div class="menu-item">
-                <a href="/pages/galeria.html">GALERIA</a>
+                <a href="/iimteresante/pages/galeria.html">GALERIA</a>
             </div>
         </nav>
     </aside>
