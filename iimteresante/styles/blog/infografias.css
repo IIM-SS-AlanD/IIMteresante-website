@@ -13,6 +13,10 @@
     width: 80%;
 }
 
+.imagen_width{
+    width:80%;
+}
+
 #Infografia_SeccionBanner{
     flex-wrap: nowrap;
     display: flex;
@@ -236,4 +240,7 @@
         font-size: 4em;
     }
 
+    .imagen_width{
+        width:100%;
+    }
 }

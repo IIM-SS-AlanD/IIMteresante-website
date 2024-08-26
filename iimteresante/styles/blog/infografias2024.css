@@ -1,6 +1,13 @@
+.imagen_width{
+    width:80%;
+}
+
 @media screen and (max-width: 1050px) {
     .column{
         width: 90%;
     }
 
+    .imagen_width{
+        width:100%;
+    }
 }

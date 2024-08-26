@@ -153,7 +153,9 @@ img.hover-shadow {
 }
 
 
-
+.imagen_width{
+    width:80%;
+}
 
 
 /* CARDS */
@@ -291,5 +293,8 @@ img.hover-shadow {
 }
 .row>.column {
     padding: 10px 0px;
+}
+.imagen_width{
+    width:100%;
 }
 }

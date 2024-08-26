@@ -24,6 +24,10 @@ body {
     clear: both;
 }
 
+.imagen_width{
+    width:80%;
+}
+
 .column {
     float: left;
     width: 25%;
@@ -295,5 +299,9 @@ img.hover-shadow {
 }
 .modal-content {
     width: 100%;
+}
+
+.imagen_width{
+    width:100%;
 }
 }
