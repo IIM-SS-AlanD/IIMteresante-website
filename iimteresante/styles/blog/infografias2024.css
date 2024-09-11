@@ -1,12 +1,21 @@
 .imagen_width{
-    width:80%;
+    width:100%;
 }
+.modal-content {
 
+    width: 30%;
+    max-width: 1200px;
+}
 @media screen and (max-width: 1050px) {
     .column{
         width: 90%;
     }
 
+    .modal-content {
+
+        width: 90%;
+        max-width: 1200px;
+    }
     .imagen_width{
         width:100%;
     }
